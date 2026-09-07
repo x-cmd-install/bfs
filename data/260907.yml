@@ -5,13 +5,13 @@ about:
   head: 37f6c7c
   archived: false
   latestVersion: "4.1.4"
-  collectedAt: 2026-09-07T05:43:51Z
+  collectedAt: 2026-09-07T18:46:21Z
 timeline:
   created: 2015-06-14
   lastCommit: 2026-08-24
   lastRelease: 2026-06-29
 popularity:
-  star: 1264
+  star: 1265
   watcher: 12
   fork: 43
   release: 72
@@ -81,7 +81,7 @@ total:
   commit: 2292
 ---
 path: /home/runner/.x-repo/github.com/tavianator/bfs
-collectedAt: 2026-09-07T05:43:52Z
+collectedAt: 2026-09-07T18:46:23Z
 loc:
   C:
     code: 19602
@@ -215,7 +215,7 @@ checks:
       - 'Info: all commits (14) are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:43:53+00:00
+  collectedAt: 2026-09-07T18:46:27+00:00
   platform:
     darwin/arm64:
       name:  null

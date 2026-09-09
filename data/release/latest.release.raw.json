@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 301589,
       "digest": "sha256:0282f10655008ee85623f9bd22705c595e569f455b0ca4250b841155ba34f935",
-      "download_count": 88,
+      "download_count": 90,
       "created_at": "2026-06-29T18:10:52Z",
       "updated_at": "2026-06-29T18:10:52Z",
       "browser_download_url": "https://github.com/tavianator/bfs/releases/download/4.1.4/bfs-4.1.4.tar.gz"

@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 3 | 3 | 0 | 0 | 1 |
-| last60d | 2026-07-15 | 0 | 4 | 3 | 0 | 0 | 6 |
-| 90d | 2026-06-15 | 2 | 6 | 3 | 0 | 0 | 21 |
-| last180d | 2026-03-17 | 4 | 18 | 3 | 3 | 0 | 67 |
-| 360d | 2025-09-18 | 4 | 39 | 3 | 8 | 3 | 97 |
-| last720d | 2024-09-23 | 11 | 49 | 4 | 14 | 4 | 333 |
+| 30d | 2026-08-15 | 0 | 3 | 3 | 0 | 0 | 1 |
+| last60d | 2026-07-16 | 0 | 4 | 3 | 0 | 0 | 6 |
+| 90d | 2026-06-16 | 2 | 6 | 3 | 0 | 0 | 21 |
+| last180d | 2026-03-18 | 4 | 18 | 3 | 3 | 0 | 67 |
+| 360d | 2025-09-19 | 4 | 39 | 3 | 8 | 3 | 97 |
+| last720d | 2024-09-24 | 11 | 49 | 4 | 14 | 4 | 332 |
 
 ## Release assets
 
@@ -71,25 +71,6 @@ Lowest-scoring checks:
 |-------|-----:|--------|
 | [bfs-4.1.4.tar.gz](https://github.com/tavianator/bfs/releases/download/4.1.4/bfs-4.1.4.tar.gz) | 294.5 KiB | `native/unknown` |
 | [bfs-4.1.4.tar.gz.sig](https://github.com/tavianator/bfs/releases/download/4.1.4/bfs-4.1.4.tar.gz.sig) | 294 B | `other` |
-
-## Distribution status
-
-Reported by **130** distros on [repology.org](https://repology.org/project/bfs). **31** are ✅ on the latest upstream release, **88** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `4.1.4` | ✅ latest |
-| Debian 14 | `4.1.4` | ✅ latest |
-| Debian 13 | `4.0.6` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `4.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.1.2` | ⚠️ outdated |
-| Arch | `4.1.4` | ✅ latest |
-| Homebrew | `4.1.4` | ✅ latest |
-| Fedora rawhide | `4.1.2` | ⚠️ outdated |
-| Nix unstable | `4.1.4` | ✅ latest |
-| Void | `4.1.3` | ⚠️ outdated |
-| Alpine edge | `4.1.4` | ✅ latest |
-| openSUSE Tumbleweed | `4.1.3` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -100,4 +81,4 @@ Install metadata for bfs lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:54:47Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:14:03Z._

@@ -4,7 +4,7 @@
 
 A breadth-first version of the UNIX find command
 
-![bfs](https://repo.x-cmd.io/bfs.svg)
+[![x-cmd/install — bfs Code Quality Monitoring Repo Card](https://repo.x-cmd.io/bfs.svg)](https://x-cmd.com/install/bfs)
 
 ## Install
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 3 | 0 | 0 | 1 |
-| last60d | 2026-07-20 | 0 | 3 | 3 | 0 | 0 | 6 |
-| 90d | 2026-06-20 | 1 | 6 | 3 | 0 | 0 | 21 |
-| last180d | 2026-03-22 | 4 | 18 | 3 | 3 | 0 | 67 |
-| 360d | 2025-09-23 | 4 | 39 | 3 | 8 | 3 | 97 |
-| last720d | 2024-09-28 | 11 | 49 | 4 | 14 | 4 | 332 |
+| 30d | 2026-08-21 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last60d | 2026-07-22 | 0 | 3 | 3 | 0 | 0 | 4 |
+| 90d | 2026-06-22 | 1 | 5 | 3 | 0 | 0 | 20 |
+| last180d | 2026-03-24 | 4 | 17 | 3 | 3 | 0 | 62 |
+| 360d | 2025-09-25 | 4 | 39 | 3 | 8 | 3 | 97 |
+| last720d | 2024-09-30 | 11 | 49 | 4 | 14 | 4 | 332 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for bfs lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T05:55:59Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:00:01Z._

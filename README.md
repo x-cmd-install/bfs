@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-21 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last60d | 2026-07-22 | 0 | 3 | 3 | 0 | 0 | 4 |
-| 90d | 2026-06-22 | 1 | 5 | 3 | 0 | 0 | 20 |
-| last180d | 2026-03-24 | 4 | 17 | 3 | 3 | 0 | 62 |
-| 360d | 2025-09-25 | 4 | 39 | 3 | 8 | 3 | 97 |
-| last720d | 2024-09-30 | 11 | 49 | 4 | 14 | 4 | 332 |
+| 30d | 2026-08-22 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last60d | 2026-07-23 | 0 | 3 | 3 | 0 | 0 | 4 |
+| 90d | 2026-06-23 | 1 | 5 | 3 | 0 | 0 | 20 |
+| last180d | 2026-03-25 | 4 | 17 | 3 | 3 | 0 | 62 |
+| 360d | 2025-09-26 | 4 | 39 | 3 | 8 | 3 | 97 |
+| last720d | 2024-10-01 | 11 | 49 | 4 | 14 | 4 | 331 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for bfs lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260920.yml` · 2026-09-20T06:00:01Z._
+_Snapshot: `data/card/260921.yml` · 2026-09-21T06:06:43Z._

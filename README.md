@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,283 · **Forks**: 44 · **Open issues**: 103 · **Contributors**: 25
+- **Stars**: 1,283 · **Forks**: 44 · **Open issues**: 104 · **Contributors**: 25
 
 ## Totals (cumulative)
 
-- **Releases**: 72 · **Merged PRs**: 92 · **Open PRs**: 6 · **Closed issues**: 94 · **Open issues**: 9 · **Commits**: 2292
+- **Releases**: 72 · **Merged PRs**: 92 · **Open PRs**: 6 · **Closed issues**: 94 · **Open issues**: 10 · **Commits**: 2292
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-19 | 0 | 0 | 5 | 0 | 0 | 0 |
-| last60d | 2026-08-20 | 0 | 0 | 5 | 0 | 0 | 0 |
-| 90d | 2026-07-21 | 0 | 3 | 5 | 0 | 0 | 4 |
-| last180d | 2026-04-22 | 4 | 13 | 5 | 2 | 0 | 57 |
-| 360d | 2025-10-24 | 4 | 38 | 5 | 8 | 2 | 95 |
-| last720d | 2024-10-29 | 10 | 48 | 6 | 13 | 4 | 307 |
+| 30d | 2026-09-20 | 0 | 0 | 5 | 0 | 1 | 0 |
+| last60d | 2026-08-21 | 0 | 0 | 5 | 0 | 1 | 0 |
+| 90d | 2026-07-22 | 0 | 3 | 5 | 0 | 1 | 4 |
+| last180d | 2026-04-23 | 4 | 13 | 5 | 2 | 1 | 57 |
+| 360d | 2025-10-25 | 4 | 38 | 5 | 8 | 3 | 95 |
+| last720d | 2024-10-30 | 10 | 48 | 6 | 13 | 5 | 307 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for bfs lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261019.yml` · 2026-10-19T05:26:02Z._
+_Snapshot: `data/card/261020.yml` · 2026-10-20T05:52:14Z._

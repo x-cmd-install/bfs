@@ -26,13 +26,13 @@ x install bfs
 
 ## OpenSSF Scorecard 评分
 
-总评分: **6.7 / 10**
+总评分: **6.2 / 10**
 
 评分最低的几项:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Code-Review** (0/10) — Found 0/16 approved changesets -- score normalized to 0
-- **Token-Permissions** (-1/10) — No tokens found
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Dangerous-Workflow** (-1/10) — no workflows found
 
 ## 源代码
 
@@ -48,7 +48,7 @@ x install bfs
 
 ## 流行度
 
-- **Star**: 1,283 · **Fork**: 44 · **开放 issue**: 104 · **贡献者**: 25
+- **Star**: 1,282 · **Fork**: 44 · **开放 issue**: 104 · **贡献者**: 25
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install bfs
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 3 | 1 | 0 | 0 |
-| last60d | 2026-08-23 | 0 | 0 | 5 | 1 | 0 | 0 |
-| 90d | 2026-07-24 | 0 | 3 | 5 | 1 | 0 | 4 |
-| last180d | 2026-04-25 | 4 | 13 | 5 | 3 | 0 | 57 |
-| 360d | 2025-10-27 | 4 | 38 | 5 | 9 | 2 | 95 |
-| last720d | 2024-11-01 | 9 | 47 | 6 | 14 | 4 | 304 |
+| 30d | 2026-09-23 | 0 | 0 | 3 | 1 | 0 | 0 |
+| last60d | 2026-08-24 | 0 | 0 | 5 | 1 | 0 | 0 |
+| 90d | 2026-07-25 | 0 | 3 | 5 | 1 | 0 | 4 |
+| last180d | 2026-04-26 | 4 | 13 | 5 | 3 | 0 | 57 |
+| 360d | 2025-10-28 | 4 | 38 | 5 | 9 | 2 | 95 |
+| last720d | 2024-11-02 | 9 | 47 | 6 | 14 | 4 | 304 |
 
 ## Release 资产
 
@@ -71,6 +71,25 @@ x install bfs
 |------|-----:|----------|
 | [bfs-4.1.4.tar.gz](https://github.com/tavianator/bfs/releases/download/4.1.4/bfs-4.1.4.tar.gz) | 294.5 KiB | `native/unknown` |
 | [bfs-4.1.4.tar.gz.sig](https://github.com/tavianator/bfs/releases/download/4.1.4/bfs-4.1.4.tar.gz.sig) | 294 B | `other` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/bfs) 上共有 **129** 个发行版报告此项目。**32** 个 ✅ 已是最新上游版本，**86** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `4.1.4` | ✅ latest |
+| Debian 14 | `4.1.4` | ✅ latest |
+| Debian 13 | `4.0.6` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `4.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `3.1.2` | ⚠️ outdated |
+| Arch | `4.1.4` | ✅ latest |
+| Homebrew | `4.1.4` | ✅ latest |
+| Fedora rawhide | `4.1.2` | ⚠️ outdated |
+| Nix unstable | `4.1.4` | ✅ latest |
+| Void | `4.1.3` | ⚠️ outdated |
+| Alpine edge | `4.1.4` | ✅ latest |
+| openSUSE Tumbleweed | `4.1.3` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -81,4 +100,4 @@ bfs 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:41:37Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:36:37Z._

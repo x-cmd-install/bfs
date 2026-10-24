@@ -14,14 +14,14 @@ x install bfs
 
 ## Code insight
 
-Total: **25,619** lines of code across **729** files in the top 5 languages.
+Total: **25,633** lines of code across **730** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 19,602 | 3,305 | 4,204 | 117 |
+| C | 19,615 | 3,308 | 4,209 | 118 |
 | Sh | 3,053 | 466 | 629 | 568 |
 | CHeader | 1,948 | 3,243 | 838 | 34 |
-| Makefile | 528 | 125 | 136 | 9 |
+| Makefile | 529 | 125 | 136 | 9 |
 | Bash | 221 | 46 | 20 | 1 |
 
 ## OpenSSF Scorecard
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `4.1.4` (2026-06-29)
-- **Last commit**: 2026-08-24
+- **Last commit**: 2026-10-23
 - **Assets in release**: 2
 
 ## Popularity
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 72 · **Merged PRs**: 92 · **Open PRs**: 6 · **Closed issues**: 95 · **Open issues**: 9 · **Commits**: 2292
+- **Releases**: 72 · **Merged PRs**: 97 · **Open PRs**: 1 · **Closed issues**: 95 · **Open issues**: 9 · **Commits**: 2303
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 0 | 0 | 3 | 1 | 0 | 0 |
-| last60d | 2026-08-24 | 0 | 0 | 5 | 1 | 0 | 0 |
-| 90d | 2026-07-25 | 0 | 3 | 5 | 1 | 0 | 4 |
-| last180d | 2026-04-26 | 4 | 13 | 5 | 3 | 0 | 57 |
-| 360d | 2025-10-28 | 4 | 38 | 5 | 9 | 2 | 95 |
-| last720d | 2024-11-02 | 9 | 47 | 6 | 14 | 4 | 304 |
+| 30d | 2026-09-24 | 0 | 3 | 0 | 1 | 0 | 4 |
+| last60d | 2026-08-25 | 0 | 5 | 0 | 1 | 0 | 6 |
+| 90d | 2026-07-26 | 0 | 8 | 0 | 1 | 0 | 10 |
+| last180d | 2026-04-27 | 4 | 17 | 0 | 3 | 0 | 63 |
+| 360d | 2025-10-29 | 4 | 43 | 0 | 9 | 2 | 101 |
+| last720d | 2024-11-03 | 9 | 52 | 1 | 14 | 4 | 310 |
 
 ## Release assets
 
@@ -100,4 +100,4 @@ Install metadata for bfs lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T05:36:37Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T05:23:48Z._

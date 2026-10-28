@@ -14,23 +14,23 @@ x install bfs
 
 ## Code insight
 
-Total: **25,653** lines of code across **730** files in the top 5 languages.
+Total: **25,663** lines of code across **731** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 19,633 | 3,310 | 4,212 | 118 |
-| Sh | 3,053 | 466 | 629 | 568 |
+| C | 19,631 | 3,310 | 4,210 | 118 |
+| Sh | 3,065 | 467 | 636 | 569 |
 | CHeader | 1,950 | 3,247 | 839 | 34 |
 | Makefile | 529 | 125 | 136 | 9 |
 | Bash | 221 | 46 | 20 | 1 |
 
 ## OpenSSF Scorecard
 
-Overall score: **6.2 / 10**
+Overall score: **6.7 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 0/16 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 0/10 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Dangerous-Workflow** (-1/10) — no workflows found
 
@@ -42,35 +42,35 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `4.1.4` (2026-06-29)
-- **Last commit**: 2026-10-27
+- **Latest**: `4.1.5` (2026-10-28)
+- **Last commit**: 2026-10-28
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 1,282 · **Forks**: 44 · **Open issues**: 104 · **Contributors**: 25
+- **Stars**: 1,281 · **Forks**: 44 · **Open issues**: 104 · **Contributors**: 25
 
 ## Totals (cumulative)
 
-- **Releases**: 72 · **Merged PRs**: 97 · **Open PRs**: 3 · **Closed issues**: 95 · **Open issues**: 9 · **Commits**: 2304
+- **Releases**: 73 · **Merged PRs**: 97 · **Open PRs**: 3 · **Closed issues**: 95 · **Open issues**: 9 · **Commits**: 2306
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 0 | 3 | 2 | 1 | 0 | 5 |
-| last60d | 2026-08-28 | 0 | 5 | 2 | 1 | 0 | 7 |
-| 90d | 2026-07-29 | 0 | 8 | 2 | 1 | 0 | 11 |
-| last180d | 2026-04-30 | 3 | 17 | 2 | 3 | 0 | 51 |
-| 360d | 2025-11-01 | 4 | 43 | 2 | 9 | 2 | 101 |
-| last720d | 2024-11-06 | 9 | 52 | 3 | 14 | 4 | 311 |
+| 30d | 2026-09-28 | 1 | 3 | 2 | 1 | 0 | 7 |
+| last60d | 2026-08-29 | 1 | 5 | 2 | 1 | 0 | 9 |
+| 90d | 2026-07-30 | 1 | 8 | 2 | 1 | 0 | 13 |
+| last180d | 2026-05-01 | 4 | 17 | 2 | 3 | 0 | 53 |
+| 360d | 2025-11-02 | 5 | 43 | 2 | 9 | 2 | 103 |
+| last720d | 2024-11-07 | 10 | 52 | 3 | 14 | 4 | 313 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [bfs-4.1.4.tar.gz](https://github.com/tavianator/bfs/releases/download/4.1.4/bfs-4.1.4.tar.gz) | 294.5 KiB | `native/unknown` |
-| [bfs-4.1.4.tar.gz.sig](https://github.com/tavianator/bfs/releases/download/4.1.4/bfs-4.1.4.tar.gz.sig) | 294 B | `other` |
+| [bfs-4.1.5.tar.gz](https://github.com/tavianator/bfs/releases/download/4.1.5/bfs-4.1.5.tar.gz) | 295.9 KiB | `native/unknown` |
+| [bfs-4.1.5.tar.gz.sig](https://github.com/tavianator/bfs/releases/download/4.1.5/bfs-4.1.5.tar.gz.sig) | 294 B | `other` |
 
 ## Distribution status
 
@@ -100,4 +100,4 @@ Install metadata for bfs lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T05:57:12Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T06:37:13Z._

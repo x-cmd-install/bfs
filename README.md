@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,281 · **Forks**: 44 · **Open issues**: 104 · **Contributors**: 25
+- **Stars**: 1,280 · **Forks**: 44 · **Open issues**: 104 · **Contributors**: 25
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-28 | 1 | 3 | 2 | 1 | 0 | 7 |
-| last60d | 2026-08-29 | 1 | 5 | 2 | 1 | 0 | 9 |
-| 90d | 2026-07-30 | 1 | 8 | 2 | 1 | 0 | 13 |
-| last180d | 2026-05-01 | 4 | 17 | 2 | 3 | 0 | 53 |
-| 360d | 2025-11-02 | 5 | 43 | 2 | 9 | 2 | 103 |
-| last720d | 2024-11-07 | 10 | 52 | 3 | 14 | 4 | 313 |
+| 30d | 2026-09-29 | 1 | 3 | 2 | 1 | 0 | 7 |
+| last60d | 2026-08-30 | 1 | 5 | 2 | 1 | 0 | 9 |
+| 90d | 2026-07-31 | 1 | 8 | 2 | 1 | 0 | 13 |
+| last180d | 2026-05-02 | 4 | 17 | 2 | 3 | 0 | 53 |
+| 360d | 2025-11-03 | 5 | 42 | 2 | 9 | 2 | 103 |
+| last720d | 2024-11-08 | 10 | 52 | 3 | 13 | 4 | 313 |
 
 ## Release assets
 
@@ -74,21 +74,21 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **129** distros on [repology.org](https://repology.org/project/bfs). **33** are ✅ on the latest upstream release, **85** are ⚠️ on an older version.
+Reported by **129** distros on [repology.org](https://repology.org/project/bfs). **2** are ✅ on the latest upstream release, **116** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `4.1.4` | ✅ latest |
-| Debian 14 | `4.1.4` | ✅ latest |
+| Debian unstable | `4.1.4` | ⚠️ outdated |
+| Debian 14 | `4.1.4` | ⚠️ outdated |
 | Debian 13 | `4.0.6` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `4.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.1.2` | ⚠️ outdated |
-| Arch | `4.1.4` | ✅ latest |
-| Homebrew | `4.1.4` | ✅ latest |
+| Arch | `4.1.4` | ⚠️ outdated |
+| Homebrew | `4.1.5` | ✅ latest |
 | Fedora rawhide | `4.1.2` | ⚠️ outdated |
-| Nix unstable | `4.1.4` | ✅ latest |
-| Void | `4.1.4` | ✅ latest |
-| Alpine edge | `4.1.4` | ✅ latest |
+| Nix unstable | `4.1.4` | ⚠️ outdated |
+| Void | `4.1.4` | ⚠️ outdated |
+| Alpine edge | `4.1.4` | ⚠️ outdated |
 | openSUSE Tumbleweed | `4.1.3` | ⚠️ outdated |
 
 ## Improve this data
@@ -100,4 +100,4 @@ Install metadata for bfs lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261028.yml` · 2026-10-28T06:37:13Z._
+_Snapshot: `data/card/261029.yml` · 2026-10-29T06:41:32Z._

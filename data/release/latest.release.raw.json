@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 303001,
       "digest": "sha256:9b0ebcef31460b1d30e35009ff9d1357e4e1b0db7fe6570430badf9782fa1a61",
-      "download_count": 0,
+      "download_count": 4,
       "created_at": "2026-10-28T04:37:16Z",
       "updated_at": "2026-10-28T04:37:16Z",
       "browser_download_url": "https://github.com/tavianator/bfs/releases/download/4.1.5/bfs-4.1.5.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 294,
       "digest": "sha256:ac987ddabccc570edd3a277a242a292d844089d6968b74b8699370e6b9a3d7fd",
-      "download_count": 0,
+      "download_count": 1,
       "created_at": "2026-10-28T04:37:16Z",
       "updated_at": "2026-10-28T04:37:16Z",
       "browser_download_url": "https://github.com/tavianator/bfs/releases/download/4.1.5/bfs-4.1.5.tar.gz.sig"
@@ -111,5 +111,17 @@
   ],
   "tarball_url": "https://api.github.com/repos/tavianator/bfs/tarball/4.1.5",
   "zipball_url": "https://api.github.com/repos/tavianator/bfs/zipball/4.1.5",
-  "body": "## Changes\r\n\r\n- `bfs` now builds a static library as part of the build process.  For release builds with LTO, some systems will require an `ar` wrapper to find the linker plugin, such as\r\n\r\n      $ ./configure --enable-release AR=gcc-ar\r\n\r\n  (or `AR=llvm-ar` for Clang builds).  Most modern systems will not require overriding the default `AR`.  ([`9d6880c2`](https://github.com/tavianator/bfs/commit/9d6880c2323c7caaf81943bf1381bddf4529371b))\r\n\r\n- As hardening against some race conditions and buggy file systems, `bfs` will refuse to follow symbolic links in more cases  ([`18415819`](https://github.com/tavianator/bfs/commit/184158197c9e80df334e4a4253807a78188e61b0))\r\n\r\n## Bug fixes\r\n\r\n- Fixed an optimizer bug that assumed if `-samefile` didn't match, `-inum` couldn't match either.  This is false for files on different mount points, which is why (device, inode) number pairs are necessary to uniquely identify a file.  The bug was originally introduced in bfs 3.1 (February 6, 2024).  ([`1537b7e6`](https://github.com/tavianator/bfs/commit/1537b7e62a61f5ad1b654cc53d28319372d4eea5))\r\n\r\n- Added some missing primary expression types to various shell completions  ([`fa35eb9c`](https://github.com/tavianator/bfs/commit/fa35eb9ce26251a02b9d8ce3ad5b543430f871aa))\r\n\r\n- Fixed a memory leak in `-context`  ([`568c1bd0`](https://github.com/tavianator/bfs/commit/568c1bd03a723df7585b293b18d0f43d0b051295))\r\n\r\n**Full Changelog**: https://github.com/tavianator/bfs/compare/4.1.4...4.1.5"
+  "body": "## Changes\r\n\r\n- `bfs` now builds a static library as part of the build process.  For release builds with LTO, some systems will require an `ar` wrapper to find the linker plugin, such as\r\n\r\n      $ ./configure --enable-release AR=gcc-ar\r\n\r\n  (or `AR=llvm-ar` for Clang builds).  Most modern systems will not require overriding the default `AR`.  ([`9d6880c2`](https://github.com/tavianator/bfs/commit/9d6880c2323c7caaf81943bf1381bddf4529371b))\r\n\r\n- As hardening against some race conditions and buggy file systems, `bfs` will refuse to follow symbolic links in more cases  ([`18415819`](https://github.com/tavianator/bfs/commit/184158197c9e80df334e4a4253807a78188e61b0))\r\n\r\n## Bug fixes\r\n\r\n- Fixed an optimizer bug that assumed if `-samefile` didn't match, `-inum` couldn't match either.  This is false for files on different mount points, which is why (device, inode) number pairs are necessary to uniquely identify a file.  The bug was originally introduced in bfs 3.1 (February 6, 2024).  ([`1537b7e6`](https://github.com/tavianator/bfs/commit/1537b7e62a61f5ad1b654cc53d28319372d4eea5))\r\n\r\n- Added some missing primary expression types to various shell completions  ([`fa35eb9c`](https://github.com/tavianator/bfs/commit/fa35eb9ce26251a02b9d8ce3ad5b543430f871aa))\r\n\r\n- Fixed a memory leak in `-context`  ([`568c1bd0`](https://github.com/tavianator/bfs/commit/568c1bd03a723df7585b293b18d0f43d0b051295))\r\n\r\n**Full Changelog**: https://github.com/tavianator/bfs/compare/4.1.4...4.1.5",
+  "reactions": {
+    "url": "https://api.github.com/repos/tavianator/bfs/releases/426266696/reactions",
+    "total_count": 1,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 1,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  }
 }

@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 1 | 3 | 2 | 1 | 0 | 7 |
-| last60d | 2026-08-30 | 1 | 5 | 2 | 1 | 0 | 9 |
-| 90d | 2026-07-31 | 1 | 8 | 2 | 1 | 0 | 13 |
-| last180d | 2026-05-02 | 4 | 17 | 2 | 3 | 0 | 53 |
-| 360d | 2025-11-03 | 5 | 42 | 2 | 9 | 2 | 103 |
-| last720d | 2024-11-08 | 10 | 52 | 3 | 13 | 4 | 313 |
+| 30d | 2026-09-30 | 1 | 3 | 2 | 1 | 0 | 7 |
+| last60d | 2026-08-31 | 1 | 5 | 2 | 1 | 0 | 9 |
+| 90d | 2026-08-01 | 1 | 8 | 2 | 1 | 0 | 13 |
+| last180d | 2026-05-03 | 4 | 17 | 2 | 3 | 0 | 53 |
+| 360d | 2025-11-04 | 5 | 42 | 2 | 9 | 2 | 103 |
+| last720d | 2024-11-09 | 10 | 52 | 3 | 13 | 4 | 313 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **129** distros on [repology.org](https://repology.org/project/bfs). **2** are ✅ on the latest upstream release, **116** are ⚠️ on an older version.
+Reported by **129** distros on [repology.org](https://repology.org/project/bfs). **3** are ✅ on the latest upstream release, **115** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -100,4 +100,4 @@ Install metadata for bfs lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261029.yml` · 2026-10-29T06:41:32Z._
+_Snapshot: `data/card/261030.yml` · 2026-10-30T06:41:26Z._

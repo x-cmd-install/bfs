@@ -1,388 +1,16 @@
-- repo: ubuntu_20_04
-  subrepo: focal/universe
+- repo: pardus_21
+  subrepo: main
   srcname: bfs
   binnames:
     - bfs
   visiblename: bfs
-  version: 1.5.2
-  origversion: 1.5.2-1
-  status: outdated
-  maintainers:
-    - lamby@debian.org
-  categories:
-    - universe/misc
-- repo: arch
-  subrepo: extra
-  srcname: bfs
-  binname: bfs
-  visiblename: bfs
-  version: 4.1.4
-  origversion: 4.1.4-1
-  status: outdated
-  summary: A breadth-first version of find
-  licenses:
-    - 0BSD
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: bfs
-  binnames:
-    - bfs
-  visiblename: bfs
-  version: 4.0.6
-  origversion: 4.0.6-1
+  version: 2.2.1
+  origversion: 2.2.1-1
   status: outdated
   maintainers:
     - lamby@debian.org
   categories:
     - misc
-- repo: openbsd
-  srcname: sysutils/bfs
-  binname: bfs
-  visiblename: sysutils/bfs
-  version: 3.0.4
-  origversion: 3.0.4p2
-  status: outdated
-  summary: breadth-first version of the UNIX find command
-  maintainers:
-    - ports@openbsd.org
-  categories:
-    - sysutils
-- repo: alpine_3_17
-  subrepo: community
-  srcname: bfs
-  binname: bfs-bash-completion
-  visiblename: bfs-bash-completion
-  version: 2.6.2
-  origversion: 2.6.2-r0
-  status: outdated
-  summary: Bash completions for bfs
-  maintainers:
-    - dai9ah@protonmail.com
-  licenses:
-    - 0BSD
-- repo: alpine_3_18
-  subrepo: community
-  srcname: bfs
-  binname: bfs
-  visiblename: bfs
-  version: 2.6.3
-  origversion: 2.6.3-r0
-  status: outdated
-  summary: Breadth-first variant of the UNIX find command
-  maintainers:
-    - dai9ah@protonmail.com
-  licenses:
-    - 0BSD
-- repo: alpine_3_17
-  subrepo: community
-  srcname: bfs
-  binname: bfs-zsh-completion
-  visiblename: bfs-zsh-completion
-  version: 2.6.2
-  origversion: 2.6.2-r0
-  status: outdated
-  summary: Zsh completions for bfs
-  maintainers:
-    - dai9ah@protonmail.com
-  licenses:
-    - 0BSD
-- repo: alpine_3_17
-  subrepo: community
-  srcname: bfs
-  binname: bfs-fish-completion
-  visiblename: bfs-fish-completion
-  version: 2.6.2
-  origversion: 2.6.2-r0
-  status: outdated
-  summary: Fish completions for bfs
-  maintainers:
-    - dai9ah@protonmail.com
-  licenses:
-    - 0BSD
-- repo: alpine_3_17
-  subrepo: community
-  srcname: bfs
-  binname: bfs
-  visiblename: bfs
-  version: 2.6.2
-  origversion: 2.6.2-r0
-  status: outdated
-  summary: Breadth-first variant of the UNIX find command
-  maintainers:
-    - dai9ah@protonmail.com
-  licenses:
-    - 0BSD
-- repo: alpine_3_17
-  subrepo: community
-  srcname: bfs
-  binname: bfs-doc
-  visiblename: bfs-doc
-  version: 2.6.2
-  origversion: 2.6.2-r0
-  status: outdated
-  summary: Breadth-first variant of the UNIX find command (documentation)
-  maintainers:
-    - dai9ah@protonmail.com
-  licenses:
-    - 0BSD
-- repo: chimera
-  subrepo: user
-  srcname: bfs
-  binname: bfs-man
-  visiblename: bfs-man
-  version: 4.1.4
-  origversion: 4.1.4-r0
-  status: outdated
-  summary: Breadth-first version of the UNIX find command (manual pages)
-  licenses:
-    - 0BSD
-- repo: alpine_3_18
-  subrepo: community
-  srcname: bfs
-  binname: bfs-bash-completion
-  visiblename: bfs-bash-completion
-  version: 2.6.3
-  origversion: 2.6.3-r0
-  status: outdated
-  summary: Bash completions for bfs
-  maintainers:
-    - dai9ah@protonmail.com
-  licenses:
-    - 0BSD
-- repo: alpine_3_18
-  subrepo: community
-  srcname: bfs
-  binname: bfs-doc
-  visiblename: bfs-doc
-  version: 2.6.3
-  origversion: 2.6.3-r0
-  status: outdated
-  summary: Breadth-first variant of the UNIX find command (documentation)
-  maintainers:
-    - dai9ah@protonmail.com
-  licenses:
-    - 0BSD
-- repo: alpine_3_18
-  subrepo: community
-  srcname: bfs
-  binname: bfs-fish-completion
-  visiblename: bfs-fish-completion
-  version: 2.6.3
-  origversion: 2.6.3-r0
-  status: outdated
-  summary: Fish completions for bfs
-  maintainers:
-    - dai9ah@protonmail.com
-  licenses:
-    - 0BSD
-- repo: alpine_3_18
-  subrepo: community
-  srcname: bfs
-  binname: bfs-zsh-completion
-  visiblename: bfs-zsh-completion
-  version: 2.6.3
-  origversion: 2.6.3-r0
-  status: outdated
-  summary: Zsh completions for bfs
-  maintainers:
-    - dai9ah@protonmail.com
-  licenses:
-    - 0BSD
-- repo: alpine_3_19
-  subrepo: community
-  srcname: bfs
-  binname: bfs
-  visiblename: bfs
-  version: 3.0.4
-  origversion: 3.0.4-r0
-  status: outdated
-  summary: Breadth-first variant of the UNIX find command
-  maintainers:
-    - dai9ah@protonmail.com
-  licenses:
-    - 0BSD
-- repo: alpine_3_19
-  subrepo: community
-  srcname: bfs
-  binname: bfs-bash-completion
-  visiblename: bfs-bash-completion
-  version: 3.0.4
-  origversion: 3.0.4-r0
-  status: outdated
-  summary: Bash completions for bfs
-  maintainers:
-    - dai9ah@protonmail.com
-  licenses:
-    - 0BSD
-- repo: alpine_3_19
-  subrepo: community
-  srcname: bfs
-  binname: bfs-doc
-  visiblename: bfs-doc
-  version: 3.0.4
-  origversion: 3.0.4-r0
-  status: outdated
-  summary: Breadth-first variant of the UNIX find command (documentation)
-  maintainers:
-    - dai9ah@protonmail.com
-  licenses:
-    - 0BSD
-- repo: alpine_3_19
-  subrepo: community
-  srcname: bfs
-  binname: bfs-fish-completion
-  visiblename: bfs-fish-completion
-  version: 3.0.4
-  origversion: 3.0.4-r0
-  status: outdated
-  summary: Fish completions for bfs
-  maintainers:
-    - dai9ah@protonmail.com
-  licenses:
-    - 0BSD
-- repo: alpine_3_19
-  subrepo: community
-  srcname: bfs
-  binname: bfs-zsh-completion
-  visiblename: bfs-zsh-completion
-  version: 3.0.4
-  origversion: 3.0.4-r0
-  status: outdated
-  summary: Zsh completions for bfs
-  maintainers:
-    - dai9ah@protonmail.com
-  licenses:
-    - 0BSD
-- repo: alpine_3_20
-  subrepo: community
-  srcname: bfs
-  binname: bfs
-  visiblename: bfs
-  version: "3.2"
-  origversion: 3.2-r0
-  status: outdated
-  summary: Breadth-first variant of the UNIX find command
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - 0BSD
-- repo: alpine_3_20
-  subrepo: community
-  srcname: bfs
-  binname: bfs-bash-completion
-  visiblename: bfs-bash-completion
-  version: "3.2"
-  origversion: 3.2-r0
-  status: outdated
-  summary: Bash completions for bfs
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - 0BSD
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: bfs
-  binnames:
-    - bfs
-  visiblename: bfs
-  version: 1.2.1
-  origversion: 1.2.1-1
-  status: outdated
-  maintainers:
-    - lamby@debian.org
-  categories:
-    - universe/misc
-- repo: alpine_3_20
-  subrepo: community
-  srcname: bfs
-  binname: bfs-doc
-  visiblename: bfs-doc
-  version: "3.2"
-  origversion: 3.2-r0
-  status: outdated
-  summary: Breadth-first variant of the UNIX find command (documentation)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - 0BSD
-- repo: alpine_3_20
-  subrepo: community
-  srcname: bfs
-  binname: bfs-fish-completion
-  visiblename: bfs-fish-completion
-  version: "3.2"
-  origversion: 3.2-r0
-  status: outdated
-  summary: Fish completions for bfs
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - 0BSD
-- repo: alpine_3_20
-  subrepo: community
-  srcname: bfs
-  binname: bfs-zsh-completion
-  visiblename: bfs-zsh-completion
-  version: "3.2"
-  origversion: 3.2-r0
-  status: outdated
-  summary: Zsh completions for bfs
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - 0BSD
-- repo: alpine_3_21
-  subrepo: community
-  srcname: bfs
-  binname: bfs
-  visiblename: bfs
-  version: 4.0.4
-  origversion: 4.0.4-r0
-  status: outdated
-  summary: Breadth-first variant of the UNIX find command
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - 0BSD
-- repo: alpine_3_21
-  subrepo: community
-  srcname: bfs
-  binname: bfs-bash-completion
-  visiblename: bfs-bash-completion
-  version: 4.0.4
-  origversion: 4.0.4-r0
-  status: outdated
-  summary: Bash completions for bfs
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - 0BSD
-- repo: alpine_3_21
-  subrepo: community
-  srcname: bfs
-  binname: bfs-doc
-  visiblename: bfs-doc
-  version: 4.0.4
-  origversion: 4.0.4-r0
-  status: outdated
-  summary: Breadth-first variant of the UNIX find command (documentation)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - 0BSD
-- repo: alpine_3_21
-  subrepo: community
-  srcname: bfs
-  binname: bfs-fish-completion
-  visiblename: bfs-fish-completion
-  version: 4.0.4
-  origversion: 4.0.4-r0
-  status: outdated
-  summary: Fish completions for bfs
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - 0BSD
 - repo: parrot
   subrepo: parrot/main
   srcname: bfs
@@ -396,6 +24,342 @@
     - lamby@debian.org
   categories:
     - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: bfs
+  binnames:
+    - bfs
+  visiblename: bfs
+  version: 4.0.6
+  origversion: 4.0.6-1
+  status: outdated
+  maintainers:
+    - lamby@debian.org
+  categories:
+    - misc
+- repo: alpine_3_17
+  subrepo: community
+  srcname: bfs
+  binname: bfs-fish-completion
+  visiblename: bfs-fish-completion
+  version: 2.6.2
+  origversion: 2.6.2-r0
+  status: outdated
+  summary: Fish completions for bfs
+  maintainers:
+    - dai9ah@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_17
+  subrepo: community
+  srcname: bfs
+  binname: bfs
+  visiblename: bfs
+  version: 2.6.2
+  origversion: 2.6.2-r0
+  status: outdated
+  summary: Breadth-first variant of the UNIX find command
+  maintainers:
+    - dai9ah@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_17
+  subrepo: community
+  srcname: bfs
+  binname: bfs-zsh-completion
+  visiblename: bfs-zsh-completion
+  version: 2.6.2
+  origversion: 2.6.2-r0
+  status: outdated
+  summary: Zsh completions for bfs
+  maintainers:
+    - dai9ah@protonmail.com
+  licenses:
+    - 0BSD
+- repo: chimera
+  subrepo: user
+  srcname: bfs
+  binname: bfs
+  visiblename: bfs
+  version: 4.1.4
+  origversion: 4.1.4-r0
+  status: outdated
+  summary: Breadth-first version of the UNIX find command
+  licenses:
+    - 0BSD
+- repo: alpine_3_17
+  subrepo: community
+  srcname: bfs
+  binname: bfs-doc
+  visiblename: bfs-doc
+  version: 2.6.2
+  origversion: 2.6.2-r0
+  status: outdated
+  summary: Breadth-first variant of the UNIX find command (documentation)
+  maintainers:
+    - dai9ah@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_17
+  subrepo: community
+  srcname: bfs
+  binname: bfs-bash-completion
+  visiblename: bfs-bash-completion
+  version: 2.6.2
+  origversion: 2.6.2-r0
+  status: outdated
+  summary: Bash completions for bfs
+  maintainers:
+    - dai9ah@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_18
+  subrepo: community
+  srcname: bfs
+  binname: bfs
+  visiblename: bfs
+  version: 2.6.3
+  origversion: 2.6.3-r0
+  status: outdated
+  summary: Breadth-first variant of the UNIX find command
+  maintainers:
+    - dai9ah@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_18
+  subrepo: community
+  srcname: bfs
+  binname: bfs-bash-completion
+  visiblename: bfs-bash-completion
+  version: 2.6.3
+  origversion: 2.6.3-r0
+  status: outdated
+  summary: Bash completions for bfs
+  maintainers:
+    - dai9ah@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_18
+  subrepo: community
+  srcname: bfs
+  binname: bfs-doc
+  visiblename: bfs-doc
+  version: 2.6.3
+  origversion: 2.6.3-r0
+  status: outdated
+  summary: Breadth-first variant of the UNIX find command (documentation)
+  maintainers:
+    - dai9ah@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_18
+  subrepo: community
+  srcname: bfs
+  binname: bfs-fish-completion
+  visiblename: bfs-fish-completion
+  version: 2.6.3
+  origversion: 2.6.3-r0
+  status: outdated
+  summary: Fish completions for bfs
+  maintainers:
+    - dai9ah@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_18
+  subrepo: community
+  srcname: bfs
+  binname: bfs-zsh-completion
+  visiblename: bfs-zsh-completion
+  version: 2.6.3
+  origversion: 2.6.3-r0
+  status: outdated
+  summary: Zsh completions for bfs
+  maintainers:
+    - dai9ah@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_19
+  subrepo: community
+  srcname: bfs
+  binname: bfs
+  visiblename: bfs
+  version: 3.0.4
+  origversion: 3.0.4-r0
+  status: outdated
+  summary: Breadth-first variant of the UNIX find command
+  maintainers:
+    - dai9ah@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_19
+  subrepo: community
+  srcname: bfs
+  binname: bfs-bash-completion
+  visiblename: bfs-bash-completion
+  version: 3.0.4
+  origversion: 3.0.4-r0
+  status: outdated
+  summary: Bash completions for bfs
+  maintainers:
+    - dai9ah@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_19
+  subrepo: community
+  srcname: bfs
+  binname: bfs-doc
+  visiblename: bfs-doc
+  version: 3.0.4
+  origversion: 3.0.4-r0
+  status: outdated
+  summary: Breadth-first variant of the UNIX find command (documentation)
+  maintainers:
+    - dai9ah@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_19
+  subrepo: community
+  srcname: bfs
+  binname: bfs-fish-completion
+  visiblename: bfs-fish-completion
+  version: 3.0.4
+  origversion: 3.0.4-r0
+  status: outdated
+  summary: Fish completions for bfs
+  maintainers:
+    - dai9ah@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_19
+  subrepo: community
+  srcname: bfs
+  binname: bfs-zsh-completion
+  visiblename: bfs-zsh-completion
+  version: 3.0.4
+  origversion: 3.0.4-r0
+  status: outdated
+  summary: Zsh completions for bfs
+  maintainers:
+    - dai9ah@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_20
+  subrepo: community
+  srcname: bfs
+  binname: bfs
+  visiblename: bfs
+  version: "3.2"
+  origversion: 3.2-r0
+  status: outdated
+  summary: Breadth-first variant of the UNIX find command
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_20
+  subrepo: community
+  srcname: bfs
+  binname: bfs-bash-completion
+  visiblename: bfs-bash-completion
+  version: "3.2"
+  origversion: 3.2-r0
+  status: outdated
+  summary: Bash completions for bfs
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_20
+  subrepo: community
+  srcname: bfs
+  binname: bfs-doc
+  visiblename: bfs-doc
+  version: "3.2"
+  origversion: 3.2-r0
+  status: outdated
+  summary: Breadth-first variant of the UNIX find command (documentation)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_20
+  subrepo: community
+  srcname: bfs
+  binname: bfs-fish-completion
+  visiblename: bfs-fish-completion
+  version: "3.2"
+  origversion: 3.2-r0
+  status: outdated
+  summary: Fish completions for bfs
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_20
+  subrepo: community
+  srcname: bfs
+  binname: bfs-zsh-completion
+  visiblename: bfs-zsh-completion
+  version: "3.2"
+  origversion: 3.2-r0
+  status: outdated
+  summary: Zsh completions for bfs
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_21
+  subrepo: community
+  srcname: bfs
+  binname: bfs
+  visiblename: bfs
+  version: 4.0.4
+  origversion: 4.0.4-r0
+  status: outdated
+  summary: Breadth-first variant of the UNIX find command
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_21
+  subrepo: community
+  srcname: bfs
+  binname: bfs-bash-completion
+  visiblename: bfs-bash-completion
+  version: 4.0.4
+  origversion: 4.0.4-r0
+  status: outdated
+  summary: Bash completions for bfs
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_21
+  subrepo: community
+  srcname: bfs
+  binname: bfs-doc
+  visiblename: bfs-doc
+  version: 4.0.4
+  origversion: 4.0.4-r0
+  status: outdated
+  summary: Breadth-first variant of the UNIX find command (documentation)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - 0BSD
+- repo: alpine_3_21
+  subrepo: community
+  srcname: bfs
+  binname: bfs-fish-completion
+  visiblename: bfs-fish-completion
+  version: 4.0.4
+  origversion: 4.0.4-r0
+  status: outdated
+  summary: Fish completions for bfs
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - 0BSD
 - repo: alpine_3_21
   subrepo: community
   srcname: bfs
@@ -697,6 +661,28 @@
     - fallback-mnt-aosc@repology
   categories:
     - utils
+- repo: arch
+  subrepo: extra
+  srcname: bfs
+  binname: bfs
+  visiblename: bfs
+  version: 4.1.4
+  origversion: 4.1.4-1
+  status: outdated
+  summary: A breadth-first version of find
+  licenses:
+    - 0BSD
+- repo: parabola
+  subrepo: extra
+  srcname: bfs
+  binname: bfs
+  visiblename: bfs
+  version: 4.1.4
+  origversion: 4.1.4-1
+  status: outdated
+  summary: A breadth-first version of find
+  licenses:
+    - 0BSD
 - repo: aur
   srcname: bfs-git
   binname: bfs-git
@@ -709,15 +695,16 @@
     - tavianator@aur
   licenses:
     - BSD
-- repo: chimera
-  subrepo: user
+- repo: nix_stable_25_11
   srcname: bfs
-  binname: bfs
   visiblename: bfs
-  version: 4.1.4
-  origversion: 4.1.4-r0
+  version: "4.1"
+  origversion: null
   status: outdated
   summary: Breadth-first version of the UNIX find command
+  maintainers:
+    - jesper.geertsen.jonsson@gmail.com
+    - christina@cafkafk.com
   licenses:
     - 0BSD
 - repo: chimera
@@ -740,6 +727,17 @@
   origversion: 4.1.4-r0
   status: outdated
   summary: Breadth-first version of the UNIX find command (fish completions)
+  licenses:
+    - 0BSD
+- repo: chimera
+  subrepo: user
+  srcname: bfs
+  binname: bfs-man
+  visiblename: bfs-man
+  version: 4.1.4
+  origversion: 4.1.4-r0
+  status: outdated
+  summary: Breadth-first version of the UNIX find command (manual pages)
   licenses:
     - 0BSD
 - repo: chimera
@@ -931,22 +929,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: release
-  srcname: bfs
-  binnames:
-    - bfs
-    - bfs-debuginfo
-    - bfs-debugsource
-  visiblename: bfs
-  version: 3.1.2
-  origversion: 3.1.2-1.fc40
-  status: legacy
-  summary: A breadth-first version of the UNIX find command
-  licenses:
-    - 0BSD
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: updates
   srcname: bfs
   binnames:
@@ -962,14 +944,16 @@
     - 0BSD
   categories:
     - Unspecified
-- repo: fedora_41
+- repo: fedora_40
   subrepo: release
   srcname: bfs
   binnames:
     - bfs
+    - bfs-debuginfo
+    - bfs-debugsource
   visiblename: bfs
-  version: 4.0.1
-  origversion: 4.0.1-1.fc41
+  version: 3.1.2
+  origversion: 3.1.2-1.fc40
   status: legacy
   summary: A breadth-first version of the UNIX find command
   licenses:
@@ -990,15 +974,15 @@
     - 0BSD
   categories:
     - Unspecified
-- repo: fedora_42
-  subrepo: updates
+- repo: fedora_41
+  subrepo: release
   srcname: bfs
   binnames:
     - bfs
   visiblename: bfs
-  version: 4.0.7
-  origversion: 4.0.7-1.fc42
-  status: outdated
+  version: 4.0.1
+  origversion: 4.0.1-1.fc41
+  status: legacy
   summary: A breadth-first version of the UNIX find command
   licenses:
     - 0BSD
@@ -1013,6 +997,20 @@
   version: 4.0.4
   origversion: 4.0.4-2.fc42
   status: legacy
+  summary: A breadth-first version of the UNIX find command
+  licenses:
+    - 0BSD
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: bfs
+  binnames:
+    - bfs
+  visiblename: bfs
+  version: 4.0.7
+  origversion: 4.0.7-1.fc42
+  status: outdated
   summary: A breadth-first version of the UNIX find command
   licenses:
     - 0BSD
@@ -1078,9 +1076,9 @@
   srcname: sysutils/bfs
   binname: bfs
   visiblename: sysutils/bfs
-  version: 4.1.4
+  version: 4.1.5
   origversion: null
-  status: outdated
+  status: newest
   summary: Breadth-first version of the UNIX find command
   maintainers:
     - driesm@freebsd.org
@@ -1290,18 +1288,6 @@
     - christina@cafkafk.com
   licenses:
     - 0BSD
-- repo: nix_stable_25_11
-  srcname: bfs
-  visiblename: bfs
-  version: "4.1"
-  origversion: null
-  status: outdated
-  summary: Breadth-first version of the UNIX find command
-  maintainers:
-    - jesper.geertsen.jonsson@gmail.com
-    - christina@cafkafk.com
-  licenses:
-    - 0BSD
 - repo: nix_stable_26_05
   srcname: bfs
   visiblename: bfs
@@ -1326,6 +1312,18 @@
     - christina@cafkafk.com
   licenses:
     - 0BSD
+- repo: openbsd
+  srcname: sysutils/bfs
+  binname: bfs
+  visiblename: sysutils/bfs
+  version: 3.0.4
+  origversion: 3.0.4p2
+  status: outdated
+  summary: breadth-first version of the UNIX find command
+  maintainers:
+    - ports@openbsd.org
+  categories:
+    - sysutils
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: bfs
@@ -1345,30 +1343,6 @@
     - 0BSD
   categories:
     - Unspecified
-- repo: parabola
-  subrepo: extra
-  srcname: bfs
-  binname: bfs
-  visiblename: bfs
-  version: 4.1.4
-  origversion: 4.1.4-1
-  status: outdated
-  summary: A breadth-first version of find
-  licenses:
-    - 0BSD
-- repo: pardus_21
-  subrepo: main
-  srcname: bfs
-  binnames:
-    - bfs
-  visiblename: bfs
-  version: 2.2.1
-  origversion: 2.2.1-1
-  status: outdated
-  maintainers:
-    - lamby@debian.org
-  categories:
-    - misc
 - repo: pkgsrc_2026_2
   srcname: sysutils/bfs
   binname: bfs
@@ -1541,6 +1515,32 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: bfs
+  binnames:
+    - bfs
+  visiblename: bfs
+  version: 1.2.1
+  origversion: 1.2.1-1
+  status: outdated
+  maintainers:
+    - lamby@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: bfs
+  binnames:
+    - bfs
+  visiblename: bfs
+  version: 1.5.2
+  origversion: 1.5.2-1
+  status: outdated
+  maintainers:
+    - lamby@debian.org
+  categories:
+    - universe/misc
 - repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: bfs

@@ -18,7 +18,7 @@ Total: **25,663** lines of code across **731** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 19,631 | 3,310 | 4,210 | 118 |
+| C | 19,631 | 3,309 | 4,210 | 118 |
 | Sh | 3,065 | 467 | 636 | 569 |
 | CHeader | 1,950 | 3,247 | 839 | 34 |
 | Makefile | 529 | 125 | 136 | 9 |
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `4.1.5` (2026-10-28)
-- **Last commit**: 2026-10-28
+- **Last commit**: 2026-10-30
 - **Assets in release**: 2
 
 ## Popularity
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 73 · **Merged PRs**: 97 · **Open PRs**: 3 · **Closed issues**: 95 · **Open issues**: 9 · **Commits**: 2306
+- **Releases**: 73 · **Merged PRs**: 97 · **Open PRs**: 3 · **Closed issues**: 95 · **Open issues**: 9 · **Commits**: 2307
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 1 | 3 | 2 | 1 | 0 | 7 |
-| last60d | 2026-08-31 | 1 | 5 | 2 | 1 | 0 | 9 |
-| 90d | 2026-08-01 | 1 | 8 | 2 | 1 | 0 | 13 |
-| last180d | 2026-05-03 | 4 | 17 | 2 | 3 | 0 | 53 |
-| 360d | 2025-11-04 | 5 | 42 | 2 | 9 | 2 | 103 |
-| last720d | 2024-11-09 | 10 | 52 | 3 | 13 | 4 | 313 |
+| 30d | 2026-10-01 | 1 | 3 | 2 | 1 | 0 | 8 |
+| last60d | 2026-09-01 | 1 | 5 | 2 | 1 | 0 | 10 |
+| 90d | 2026-08-02 | 1 | 8 | 2 | 1 | 0 | 14 |
+| last180d | 2026-05-04 | 4 | 16 | 2 | 3 | 0 | 54 |
+| 360d | 2025-11-05 | 5 | 42 | 2 | 9 | 2 | 104 |
+| last720d | 2024-11-10 | 10 | 52 | 3 | 13 | 4 | 314 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **129** distros on [repology.org](https://repology.org/project/bfs). **3** are ✅ on the latest upstream release, **115** are ⚠️ on an older version.
+Reported by **129** distros on [repology.org](https://repology.org/project/bfs). **4** are ✅ on the latest upstream release, **114** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -100,4 +100,4 @@ Install metadata for bfs lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T06:41:26Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T06:35:53Z._

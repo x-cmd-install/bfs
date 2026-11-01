@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,280 · **Forks**: 44 · **Open issues**: 104 · **Contributors**: 25
+- **Stars**: 1,281 · **Forks**: 44 · **Open issues**: 104 · **Contributors**: 25
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 1 | 3 | 2 | 1 | 0 | 8 |
-| last60d | 2026-09-01 | 1 | 5 | 2 | 1 | 0 | 10 |
-| 90d | 2026-08-02 | 1 | 8 | 2 | 1 | 0 | 14 |
-| last180d | 2026-05-04 | 4 | 16 | 2 | 3 | 0 | 54 |
-| 360d | 2025-11-05 | 5 | 42 | 2 | 9 | 2 | 104 |
-| last720d | 2024-11-10 | 10 | 52 | 3 | 13 | 4 | 314 |
+| 30d | 2026-10-02 | 1 | 3 | 2 | 1 | 0 | 8 |
+| last60d | 2026-09-02 | 1 | 5 | 2 | 1 | 0 | 10 |
+| 90d | 2026-08-03 | 1 | 8 | 2 | 1 | 0 | 14 |
+| last180d | 2026-05-05 | 4 | 16 | 2 | 3 | 0 | 52 |
+| 360d | 2025-11-06 | 5 | 42 | 2 | 9 | 2 | 100 |
+| last720d | 2024-11-11 | 10 | 52 | 3 | 13 | 4 | 314 |
 
 ## Release assets
 
@@ -74,11 +74,11 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **129** distros on [repology.org](https://repology.org/project/bfs). **4** are ✅ on the latest upstream release, **114** are ⚠️ on an older version.
+Reported by **130** distros on [repology.org](https://repology.org/project/bfs). **7** are ✅ on the latest upstream release, **111** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `4.1.4` | ⚠️ outdated |
+| Debian unstable | `4.1.4` | 🪦 legacy |
 | Debian 14 | `4.1.4` | ⚠️ outdated |
 | Debian 13 | `4.0.6` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `4.1` | ⚠️ outdated |
@@ -100,4 +100,4 @@ Install metadata for bfs lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T06:35:53Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T06:54:22Z._

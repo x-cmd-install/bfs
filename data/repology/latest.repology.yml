@@ -583,17 +583,6 @@
     - wanghao03@loongson.cn
   licenses:
     - 0BSD
-- repo: deepin_unstable
-  subrepo: main
-  srcname: bfs
-  binnames:
-    - bfs
-  visiblename: bfs
-  version: 1.3.3
-  origversion: 1.3.3-1
-  status: outdated
-  maintainers:
-    - lamby@debian.org
 - repo: altsisyphus
   srcname: bfs
   binnames:
@@ -758,19 +747,6 @@
   binnames:
     - bfs
   visiblename: bfs
-  version: 4.1.4
-  origversion: 4.1.4-1
-  status: legacy
-  maintainers:
-    - lamby@debian.org
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: bfs
-  binnames:
-    - bfs
-  visiblename: bfs
   version: 4.1.5
   origversion: 4.1.5-1
   status: newest
@@ -778,6 +754,17 @@
     - lamby@debian.org
   categories:
     - misc
+- repo: deepin_unstable
+  subrepo: main
+  srcname: bfs
+  binnames:
+    - bfs
+  visiblename: bfs
+  version: 1.3.3
+  origversion: 1.3.3-1
+  status: outdated
+  maintainers:
+    - lamby@debian.org
 - repo: deepin_25
   subrepo: community
   srcname: bfs
@@ -1175,23 +1162,23 @@
   srcname: bfs
   binname: bfs
   visiblename: bfs
-  version: 4.1.4
-  origversion: 4.1.4-1
+  version: 3.0.2
+  origversion: 3.0.2-1
   status: outdated
   summary: A breadth-first version of find
   licenses:
-    - 0BSD
+    - BSD
 - repo: manjaro_testing
   subrepo: extra
   srcname: bfs
   binname: bfs
   visiblename: bfs
-  version: 4.1.4
-  origversion: 4.1.4-1
+  version: 3.0.2
+  origversion: 3.0.2-1
   status: outdated
   summary: A breadth-first version of find
   licenses:
-    - 0BSD
+    - BSD
 - repo: manjaro_unstable
   subrepo: extra
   srcname: bfs
@@ -1395,8 +1382,8 @@
 - repo: pld
   srcname: bfs
   visiblename: bfs
-  version: "4.1"
-  origversion: 4.1-1
+  version: 4.1.4
+  origversion: 4.1.4-1
   status: outdated
 - repo: pureos_amber
   subrepo: amber/main
@@ -1510,9 +1497,9 @@
   srcname: bin/bfs
   binname: bin/bfs
   visiblename: bin/bfs
-  version: 4.1.4
+  version: 4.1.5
   origversion: null
-  status: outdated
+  status: newest
   maintainers:
     - anton@samokhvalov.xyz
   categories:

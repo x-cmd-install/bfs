@@ -14,14 +14,14 @@ x install bfs
 
 ## Code insight
 
-Total: **25,720** lines of code across **741** files in the top 5 languages.
+Total: **25,978** lines of code across **752** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 19,667 | 3,314 | 4,221 | 118 |
-| Sh | 3,086 | 471 | 642 | 579 |
-| CHeader | 1,950 | 3,247 | 839 | 34 |
-| Makefile | 529 | 125 | 136 | 9 |
+| C | 19,875 | 3,340 | 4,279 | 121 |
+| Sh | 3,131 | 478 | 658 | 587 |
+| CHeader | 1,952 | 3,259 | 841 | 34 |
+| Makefile | 532 | 125 | 136 | 9 |
 | Bash | 221 | 46 | 20 | 1 |
 
 ## OpenSSF Scorecard
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `4.1.5` (2026-10-28)
-- **Last commit**: 2026-11-03
+- **Last commit**: 2026-11-04
 - **Assets in release**: 2
 
 ## Popularity
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 73 · **Merged PRs**: 97 · **Open PRs**: 4 · **Closed issues**: 95 · **Open issues**: 9 · **Commits**: 2321
+- **Releases**: 73 · **Merged PRs**: 97 · **Open PRs**: 4 · **Closed issues**: 95 · **Open issues**: 9 · **Commits**: 2325
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 1 | 3 | 3 | 1 | 0 | 22 |
-| last60d | 2026-09-05 | 1 | 5 | 3 | 1 | 0 | 24 |
-| 90d | 2026-08-06 | 1 | 8 | 3 | 1 | 0 | 28 |
-| last180d | 2026-05-08 | 3 | 16 | 3 | 2 | 0 | 66 |
-| 360d | 2025-11-09 | 5 | 42 | 3 | 9 | 2 | 114 |
-| last720d | 2024-11-14 | 10 | 52 | 4 | 13 | 4 | 327 |
+| 30d | 2026-10-06 | 1 | 3 | 3 | 1 | 0 | 26 |
+| last60d | 2026-09-06 | 1 | 5 | 3 | 1 | 0 | 28 |
+| 90d | 2026-08-07 | 1 | 8 | 3 | 1 | 0 | 32 |
+| last180d | 2026-05-09 | 3 | 16 | 3 | 2 | 0 | 70 |
+| 360d | 2025-11-10 | 5 | 39 | 3 | 9 | 2 | 118 |
+| last720d | 2024-11-15 | 10 | 52 | 4 | 13 | 4 | 331 |
 
 ## Release assets
 
@@ -100,4 +100,4 @@ Install metadata for bfs lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T07:25:53Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T07:38:30Z._

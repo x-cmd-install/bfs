@@ -14,12 +14,12 @@ x install bfs
 
 ## 代码洞察
 
-合计: **25,978** 行代码（覆盖前 5 种语言、共 **752** 个文件）。
+合计: **25,987** 行代码（覆盖前 5 种语言、共 **752** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
 | C | 19,875 | 3,340 | 4,279 | 121 |
-| Sh | 3,131 | 478 | 658 | 587 |
+| Sh | 3,140 | 480 | 660 | 587 |
 | CHeader | 1,952 | 3,259 | 841 | 34 |
 | Makefile | 532 | 125 | 136 | 9 |
 | Bash | 221 | 46 | 20 | 1 |
@@ -42,8 +42,8 @@ x install bfs
 
 ## 发布
 
-- **最新版本**: `4.1.5` (2026-10-28)
-- **最近提交**: 2026-11-04
+- **最新版本**: `4.1.6` (2026-11-05)
+- **最近提交**: 2026-11-05
 - **Release 含资产**: 2 个
 
 ## 流行度
@@ -52,39 +52,39 @@ x install bfs
 
 ## 累计统计
 
-- **发布数**: 73 · **已合并 PR**: 97 · **开放 PR**: 4 · **已关闭 issue**: 95 · **开放 issue**: 9 · **提交数**: 2325
+- **发布数**: 74 · **已合并 PR**: 97 · **开放 PR**: 4 · **已关闭 issue**: 95 · **开放 issue**: 9 · **提交数**: 2327
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 1 | 3 | 3 | 1 | 0 | 26 |
-| last60d | 2026-09-06 | 1 | 5 | 3 | 1 | 0 | 28 |
-| 90d | 2026-08-07 | 1 | 8 | 3 | 1 | 0 | 32 |
-| last180d | 2026-05-09 | 3 | 16 | 3 | 2 | 0 | 70 |
-| 360d | 2025-11-10 | 5 | 39 | 3 | 9 | 2 | 118 |
-| last720d | 2024-11-15 | 10 | 52 | 4 | 13 | 4 | 331 |
+| 30d | 2026-10-07 | 2 | 3 | 3 | 1 | 0 | 28 |
+| last60d | 2026-09-07 | 2 | 5 | 3 | 1 | 0 | 30 |
+| 90d | 2026-08-08 | 2 | 8 | 3 | 1 | 0 | 34 |
+| last180d | 2026-05-10 | 4 | 16 | 3 | 2 | 0 | 72 |
+| 360d | 2025-11-11 | 6 | 39 | 3 | 9 | 2 | 120 |
+| last720d | 2024-11-16 | 11 | 52 | 4 | 13 | 4 | 333 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [bfs-4.1.5.tar.gz](https://github.com/tavianator/bfs/releases/download/4.1.5/bfs-4.1.5.tar.gz) | 295.9 KiB | `native/unknown` |
-| [bfs-4.1.5.tar.gz.sig](https://github.com/tavianator/bfs/releases/download/4.1.5/bfs-4.1.5.tar.gz.sig) | 294 B | `other` |
+| [bfs-4.1.6.tar.gz](https://github.com/tavianator/bfs/releases/download/4.1.6/bfs-4.1.6.tar.gz) | 301.7 KiB | `native/unknown` |
+| [bfs-4.1.6.tar.gz.sig](https://github.com/tavianator/bfs/releases/download/4.1.6/bfs-4.1.6.tar.gz.sig) | 294 B | `other` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/bfs) 上共有 **129** 个发行版报告此项目。**10** 个 ✅ 已是最新上游版本，**108** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/bfs) 上共有 **129** 个发行版报告此项目。**3** 个 ✅ 已是最新上游版本，**115** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Debian unstable | `4.1.5` | ✅ latest |
-| Debian 14 | `4.1.4` | ⚠️ outdated |
+| Debian unstable | `4.1.5` | ⚠️ outdated |
+| Debian 14 | `4.1.5` | ⚠️ outdated |
 | Debian 13 | `4.0.6` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `4.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.1.2` | ⚠️ outdated |
-| Arch | `4.1.5` | ✅ latest |
-| Homebrew | `4.1.5` | ✅ latest |
+| Arch | `4.1.5` | ⚠️ outdated |
+| Homebrew | `4.1.6` | ✅ latest |
 | Fedora rawhide | `4.1.2` | ⚠️ outdated |
 | Nix unstable | `4.1.4` | ⚠️ outdated |
 | Void | `4.1.4` | ⚠️ outdated |
@@ -100,4 +100,4 @@ bfs 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261105.yml` · 2026-11-05T07:38:30Z._
+_数据快照: `data/card/261106.yml` · 2026-11-06T07:35:10Z._

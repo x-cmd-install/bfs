@@ -14,12 +14,12 @@ x install bfs
 
 ## Code insight
 
-Total: **25,978** lines of code across **752** files in the top 5 languages.
+Total: **25,987** lines of code across **752** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | C | 19,875 | 3,340 | 4,279 | 121 |
-| Sh | 3,131 | 478 | 658 | 587 |
+| Sh | 3,140 | 480 | 660 | 587 |
 | CHeader | 1,952 | 3,259 | 841 | 34 |
 | Makefile | 532 | 125 | 136 | 9 |
 | Bash | 221 | 46 | 20 | 1 |
@@ -42,8 +42,8 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `4.1.5` (2026-10-28)
-- **Last commit**: 2026-11-04
+- **Latest**: `4.1.6` (2026-11-05)
+- **Last commit**: 2026-11-05
 - **Assets in release**: 2
 
 ## Popularity
@@ -52,39 +52,39 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 73 · **Merged PRs**: 97 · **Open PRs**: 4 · **Closed issues**: 95 · **Open issues**: 9 · **Commits**: 2325
+- **Releases**: 74 · **Merged PRs**: 97 · **Open PRs**: 4 · **Closed issues**: 95 · **Open issues**: 9 · **Commits**: 2327
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 1 | 3 | 3 | 1 | 0 | 26 |
-| last60d | 2026-09-06 | 1 | 5 | 3 | 1 | 0 | 28 |
-| 90d | 2026-08-07 | 1 | 8 | 3 | 1 | 0 | 32 |
-| last180d | 2026-05-09 | 3 | 16 | 3 | 2 | 0 | 70 |
-| 360d | 2025-11-10 | 5 | 39 | 3 | 9 | 2 | 118 |
-| last720d | 2024-11-15 | 10 | 52 | 4 | 13 | 4 | 331 |
+| 30d | 2026-10-07 | 2 | 3 | 3 | 1 | 0 | 28 |
+| last60d | 2026-09-07 | 2 | 5 | 3 | 1 | 0 | 30 |
+| 90d | 2026-08-08 | 2 | 8 | 3 | 1 | 0 | 34 |
+| last180d | 2026-05-10 | 4 | 16 | 3 | 2 | 0 | 72 |
+| 360d | 2025-11-11 | 6 | 39 | 3 | 9 | 2 | 120 |
+| last720d | 2024-11-16 | 11 | 52 | 4 | 13 | 4 | 333 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [bfs-4.1.5.tar.gz](https://github.com/tavianator/bfs/releases/download/4.1.5/bfs-4.1.5.tar.gz) | 295.9 KiB | `native/unknown` |
-| [bfs-4.1.5.tar.gz.sig](https://github.com/tavianator/bfs/releases/download/4.1.5/bfs-4.1.5.tar.gz.sig) | 294 B | `other` |
+| [bfs-4.1.6.tar.gz](https://github.com/tavianator/bfs/releases/download/4.1.6/bfs-4.1.6.tar.gz) | 301.7 KiB | `native/unknown` |
+| [bfs-4.1.6.tar.gz.sig](https://github.com/tavianator/bfs/releases/download/4.1.6/bfs-4.1.6.tar.gz.sig) | 294 B | `other` |
 
 ## Distribution status
 
-Reported by **129** distros on [repology.org](https://repology.org/project/bfs). **10** are ✅ on the latest upstream release, **108** are ⚠️ on an older version.
+Reported by **129** distros on [repology.org](https://repology.org/project/bfs). **3** are ✅ on the latest upstream release, **115** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `4.1.5` | ✅ latest |
-| Debian 14 | `4.1.4` | ⚠️ outdated |
+| Debian unstable | `4.1.5` | ⚠️ outdated |
+| Debian 14 | `4.1.5` | ⚠️ outdated |
 | Debian 13 | `4.0.6` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `4.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.1.2` | ⚠️ outdated |
-| Arch | `4.1.5` | ✅ latest |
-| Homebrew | `4.1.5` | ✅ latest |
+| Arch | `4.1.5` | ⚠️ outdated |
+| Homebrew | `4.1.6` | ✅ latest |
 | Fedora rawhide | `4.1.2` | ⚠️ outdated |
 | Nix unstable | `4.1.4` | ⚠️ outdated |
 | Void | `4.1.4` | ⚠️ outdated |
@@ -100,4 +100,4 @@ Install metadata for bfs lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T07:38:30Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T07:35:09Z._

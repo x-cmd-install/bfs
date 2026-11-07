@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 2 | 3 | 3 | 1 | 0 | 28 |
-| last60d | 2026-09-07 | 2 | 5 | 3 | 1 | 0 | 30 |
-| 90d | 2026-08-08 | 2 | 8 | 3 | 1 | 0 | 34 |
-| last180d | 2026-05-10 | 4 | 16 | 3 | 2 | 0 | 72 |
-| 360d | 2025-11-11 | 6 | 39 | 3 | 9 | 2 | 120 |
-| last720d | 2024-11-16 | 11 | 52 | 4 | 13 | 4 | 333 |
+| 30d | 2026-10-08 | 2 | 3 | 3 | 1 | 0 | 28 |
+| last60d | 2026-09-08 | 2 | 5 | 3 | 1 | 0 | 30 |
+| 90d | 2026-08-09 | 2 | 8 | 3 | 1 | 0 | 34 |
+| last180d | 2026-05-11 | 4 | 16 | 3 | 2 | 0 | 72 |
+| 360d | 2025-11-12 | 6 | 39 | 3 | 9 | 2 | 120 |
+| last720d | 2024-11-17 | 11 | 52 | 4 | 13 | 4 | 333 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **129** distros on [repology.org](https://repology.org/project/bfs). **3** are ✅ on the latest upstream release, **115** are ⚠️ on an older version.
+Reported by **130** distros on [repology.org](https://repology.org/project/bfs). **4** are ✅ on the latest upstream release, **115** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -88,7 +88,7 @@ Reported by **129** distros on [repology.org](https://repology.org/project/bfs).
 | Fedora rawhide | `4.1.2` | ⚠️ outdated |
 | Nix unstable | `4.1.4` | ⚠️ outdated |
 | Void | `4.1.4` | ⚠️ outdated |
-| Alpine edge | `4.1.4` | ⚠️ outdated |
+| Alpine edge | `4.1.5` | ⚠️ outdated |
 | openSUSE Tumbleweed | `4.1.3` | ⚠️ outdated |
 
 ## Improve this data
@@ -100,4 +100,4 @@ Install metadata for bfs lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:35:09Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:53:48Z._

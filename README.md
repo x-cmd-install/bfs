@@ -14,13 +14,13 @@ x install bfs
 
 ## Code insight
 
-Total: **25,987** lines of code across **752** files in the top 5 languages.
+Total: **26,084** lines of code across **759** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 19,875 | 3,340 | 4,279 | 121 |
-| Sh | 3,140 | 480 | 660 | 587 |
-| CHeader | 1,952 | 3,259 | 841 | 34 |
+| C | 19,957 | 3,365 | 4,304 | 121 |
+| Sh | 3,154 | 482 | 662 | 594 |
+| CHeader | 1,953 | 3,262 | 842 | 34 |
 | Makefile | 532 | 125 | 136 | 9 |
 | Bash | 221 | 46 | 20 | 1 |
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `4.1.6` (2026-11-05)
-- **Last commit**: 2026-11-05
+- **Last commit**: 2026-11-09
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 1,282 · **Forks**: 44 · **Open issues**: 104 · **Contributors**: 25
+- **Stars**: 1,283 · **Forks**: 44 · **Open issues**: 104 · **Contributors**: 25
 
 ## Totals (cumulative)
 
-- **Releases**: 74 · **Merged PRs**: 97 · **Open PRs**: 4 · **Closed issues**: 95 · **Open issues**: 9 · **Commits**: 2327
+- **Releases**: 74 · **Merged PRs**: 100 · **Open PRs**: 1 · **Closed issues**: 95 · **Open issues**: 9 · **Commits**: 2349
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 2 | 3 | 3 | 1 | 0 | 25 |
-| last60d | 2026-09-09 | 2 | 5 | 3 | 1 | 0 | 30 |
-| 90d | 2026-08-10 | 2 | 8 | 3 | 1 | 0 | 34 |
-| last180d | 2026-05-12 | 4 | 15 | 3 | 2 | 0 | 67 |
-| 360d | 2025-11-13 | 6 | 39 | 3 | 9 | 2 | 118 |
-| last720d | 2024-11-18 | 11 | 51 | 4 | 13 | 4 | 333 |
+| 30d | 2026-10-11 | 2 | 6 | 0 | 1 | 0 | 0 |
+| last60d | 2026-09-11 | 2 | 8 | 0 | 1 | 0 | 0 |
+| 90d | 2026-08-12 | 2 | 11 | 0 | 1 | 0 | 0 |
+| last180d | 2026-05-14 | 4 | 18 | 0 | 2 | 0 | 0 |
+| 360d | 2025-11-15 | 6 | 42 | 0 | 9 | 2 | 0 |
+| last720d | 2024-11-20 | 11 | 54 | 1 | 13 | 4 | 354 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **131** distros on [repology.org](https://repology.org/project/bfs). **5** are ✅ on the latest upstream release, **115** are ⚠️ on an older version.
+Reported by **130** distros on [repology.org](https://repology.org/project/bfs). **6** are ✅ on the latest upstream release, **113** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -100,4 +100,4 @@ Install metadata for bfs lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T06:53:32Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T08:23:59Z._

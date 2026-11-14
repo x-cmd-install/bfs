@@ -58,12 +58,12 @@ x install bfs
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 3 | 3 | 2 | 1 | 0 | 57 |
-| last60d | 2026-09-14 | 3 | 8 | 2 | 1 | 0 | 62 |
-| 90d | 2026-08-15 | 3 | 11 | 2 | 1 | 0 | 66 |
-| last180d | 2026-05-17 | 5 | 18 | 2 | 2 | 0 | 99 |
-| 360d | 2025-11-18 | 7 | 40 | 2 | 9 | 2 | 150 |
-| last720d | 2024-11-23 | 12 | 54 | 3 | 13 | 4 | 363 |
+| 30d | 2026-10-15 | 3 | 3 | 2 | 1 | 0 | 57 |
+| last60d | 2026-09-15 | 3 | 8 | 2 | 1 | 0 | 62 |
+| 90d | 2026-08-16 | 3 | 11 | 2 | 1 | 0 | 66 |
+| last180d | 2026-05-18 | 5 | 18 | 2 | 2 | 0 | 99 |
+| 360d | 2025-11-19 | 7 | 40 | 2 | 9 | 2 | 150 |
+| last720d | 2024-11-24 | 12 | 54 | 3 | 13 | 4 | 358 |
 
 ## Release 资产
 
@@ -74,16 +74,16 @@ x install bfs
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/bfs) 上共有 **130** 个发行版报告此项目。**4** 个 ✅ 已是最新上游版本，**115** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/bfs) 上共有 **131** 个发行版报告此项目。**9** 个 ✅ 已是最新上游版本，**110** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Debian unstable | `4.1.5` | ⚠️ outdated |
+| Debian unstable | `4.1.5` | 🪦 legacy |
 | Debian 14 | `4.1.5` | ⚠️ outdated |
 | Debian 13 | `4.0.6` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `4.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.1.2` | ⚠️ outdated |
-| Arch | `4.1.5` | ⚠️ outdated |
+| Arch | `4.1.7` | ✅ latest |
 | Homebrew | `4.1.7` | ✅ latest |
 | Fedora rawhide | `4.1.2` | ⚠️ outdated |
 | Nix unstable | `4.1.4` | ⚠️ outdated |
@@ -100,4 +100,4 @@ bfs 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261113.yml` · 2026-11-13T07:57:27Z._
+_数据快照: `data/card/261114.yml` · 2026-11-14T07:43:57Z._

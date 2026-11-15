@@ -1,42 +1,3 @@
-- repo: pardus_21
-  subrepo: main
-  srcname: bfs
-  binnames:
-    - bfs
-  visiblename: bfs
-  version: 2.2.1
-  origversion: 2.2.1-1
-  status: outdated
-  maintainers:
-    - lamby@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: bfs
-  binnames:
-    - bfs
-  visiblename: bfs
-  version: 4.0.6
-  origversion: 4.0.6-1
-  status: outdated
-  maintainers:
-    - lamby@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: bfs
-  binnames:
-    - bfs
-  visiblename: bfs
-  version: 4.0.6
-  origversion: 4.0.6-1
-  status: outdated
-  maintainers:
-    - lamby@debian.org
-  categories:
-    - misc
 - repo: alpine_3_17
   subrepo: community
   srcname: bfs
@@ -128,6 +89,18 @@
     - dai9ah@protonmail.com
   licenses:
     - 0BSD
+- repo: openbsd
+  srcname: sysutils/bfs
+  binname: bfs
+  visiblename: sysutils/bfs
+  version: 3.0.4
+  origversion: 3.0.4p2
+  status: outdated
+  summary: breadth-first version of the UNIX find command
+  maintainers:
+    - ports@openbsd.org
+  categories:
+    - sysutils
 - repo: alpine_3_18
   subrepo: community
   srcname: bfs
@@ -245,19 +218,6 @@
     - cielesti@protonmail.com
   licenses:
     - 0BSD
-- repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: bfs
-  binnames:
-    - bfs
-  visiblename: bfs
-  version: 1.5.2
-  origversion: 1.5.2-1
-  status: outdated
-  maintainers:
-    - lamby@debian.org
-  categories:
-    - universe/misc
 - repo: alpine_3_20
   subrepo: community
   srcname: bfs
@@ -641,9 +601,9 @@
     - bfs
     - bfs-debuginfo
   visiblename: bfs
-  version: 4.1.6
-  origversion: 4.1.6-alt1
-  status: outdated
+  version: 4.1.7
+  origversion: 4.1.7-alt1
+  status: newest
   summary: A breadth-first version of the UNIX find command
   maintainers:
     - snk@altlinux.org
@@ -799,19 +759,6 @@
   binnames:
     - bfs
   visiblename: bfs
-  version: 4.1.5
-  origversion: 4.1.5-1
-  status: legacy
-  maintainers:
-    - lamby@debian.org
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: bfs
-  binnames:
-    - bfs
-  visiblename: bfs
   version: 4.1.7
   origversion: 4.1.7-1
   status: newest
@@ -900,22 +847,6 @@
   categories:
     - Unspecified
 - repo: fedora_39
-  subrepo: release
-  srcname: bfs
-  binnames:
-    - bfs
-    - bfs-debuginfo
-    - bfs-debugsource
-  visiblename: bfs
-  version: 3.0.2
-  origversion: 3.0.2-1.fc39
-  status: legacy
-  summary: A breadth-first version of the UNIX find command
-  licenses:
-    - 0BSD
-  categories:
-    - Unspecified
-- repo: fedora_39
   subrepo: updates
   srcname: bfs
   binnames:
@@ -931,17 +862,17 @@
     - 0BSD
   categories:
     - Unspecified
-- repo: fedora_40
-  subrepo: updates
+- repo: fedora_39
+  subrepo: release
   srcname: bfs
   binnames:
     - bfs
     - bfs-debuginfo
     - bfs-debugsource
   visiblename: bfs
-  version: 4.0.4
-  origversion: 4.0.4-1.fc40
-  status: outdated
+  version: 3.0.2
+  origversion: 3.0.2-1.fc39
+  status: legacy
   summary: A breadth-first version of the UNIX find command
   licenses:
     - 0BSD
@@ -963,15 +894,17 @@
     - 0BSD
   categories:
     - Unspecified
-- repo: fedora_41
-  subrepo: release
+- repo: fedora_40
+  subrepo: updates
   srcname: bfs
   binnames:
     - bfs
+    - bfs-debuginfo
+    - bfs-debugsource
   visiblename: bfs
-  version: 4.0.1
-  origversion: 4.0.1-1.fc41
-  status: legacy
+  version: 4.0.4
+  origversion: 4.0.4-1.fc40
+  status: outdated
   summary: A breadth-first version of the UNIX find command
   licenses:
     - 0BSD
@@ -991,14 +924,14 @@
     - 0BSD
   categories:
     - Unspecified
-- repo: fedora_42
+- repo: fedora_41
   subrepo: release
   srcname: bfs
   binnames:
     - bfs
   visiblename: bfs
-  version: 4.0.4
-  origversion: 4.0.4-2.fc42
+  version: 4.0.1
+  origversion: 4.0.1-1.fc41
   status: legacy
   summary: A breadth-first version of the UNIX find command
   licenses:
@@ -1014,6 +947,20 @@
   version: 4.0.7
   origversion: 4.0.7-1.fc42
   status: outdated
+  summary: A breadth-first version of the UNIX find command
+  licenses:
+    - 0BSD
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: release
+  srcname: bfs
+  binnames:
+    - bfs
+  visiblename: bfs
+  version: 4.0.4
+  origversion: 4.0.4-2.fc42
+  status: legacy
   summary: A breadth-first version of the UNIX find command
   licenses:
     - 0BSD
@@ -1167,19 +1114,6 @@
     - 0BSD
   categories:
     - sys-apps
-- repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: bfs
-  binnames:
-    - bfs
-  visiblename: bfs
-  version: 3.1.2
-  origversion: 3.1.2-1build1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/misc
 - repo: liguros_stable
   srcname: sys-apps/bfs
   visiblename: sys-apps/bfs
@@ -1262,9 +1196,9 @@
   srcname: bfs
   binname: bfs
   visiblename: bfs
-  version: 4.1.5
-  origversion: 4.1.5-1
-  status: outdated
+  version: 4.1.7
+  origversion: 4.1.7-1
+  status: newest
   summary: A breadth-first version of find
   licenses:
     - 0BSD
@@ -1340,18 +1274,6 @@
     - christina@cafkafk.com
   licenses:
     - 0BSD
-- repo: openbsd
-  srcname: sysutils/bfs
-  binname: bfs
-  visiblename: sysutils/bfs
-  version: 3.0.4
-  origversion: 3.0.4p2
-  status: outdated
-  summary: breadth-first version of the UNIX find command
-  maintainers:
-    - ports@openbsd.org
-  categories:
-    - sysutils
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: bfs
@@ -1382,6 +1304,45 @@
   summary: A breadth-first version of find
   licenses:
     - 0BSD
+- repo: pardus_21
+  subrepo: main
+  srcname: bfs
+  binnames:
+    - bfs
+  visiblename: bfs
+  version: 2.2.1
+  origversion: 2.2.1-1
+  status: outdated
+  maintainers:
+    - lamby@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: bfs
+  binnames:
+    - bfs
+  visiblename: bfs
+  version: 4.0.6
+  origversion: 4.0.6-1
+  status: outdated
+  maintainers:
+    - lamby@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: bfs
+  binnames:
+    - bfs
+  visiblename: bfs
+  version: 4.0.6
+  origversion: 4.0.6-1
+  status: outdated
+  maintainers:
+    - lamby@debian.org
+  categories:
+    - misc
 - repo: pkgsrc_2026_2
   srcname: sysutils/bfs
   binname: bfs
@@ -1567,6 +1528,19 @@
     - lamby@debian.org
   categories:
     - universe/misc
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: bfs
+  binnames:
+    - bfs
+  visiblename: bfs
+  version: 1.5.2
+  origversion: 1.5.2-1
+  status: outdated
+  maintainers:
+    - lamby@debian.org
+  categories:
+    - universe/misc
 - repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: bfs
@@ -1578,6 +1552,19 @@
   status: outdated
   maintainers:
     - lamby@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: bfs
+  binnames:
+    - bfs
+  visiblename: bfs
+  version: 3.1.2
+  origversion: 3.1.2-1build1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - universe/misc
 - repo: ubuntu_25_04
